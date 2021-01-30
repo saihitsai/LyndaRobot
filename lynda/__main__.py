@@ -21,8 +21,8 @@ Hi {}, my name is {}!
 // I am an Anime themed group management bot with a lot of Special Features.
 You can find the list of available commands with /help.
 ==========================
--> [Lynda's Repo](https://waa.ai/Lynda)
--> Report [Lynda Support](https://t.me/LyndaEagleSupport) if I go offline
+-> [Lynda's Repo](https://t.me/s_a_i_k_r_i_s_h_n_a)
+-> Report [Lynda Support](https://t.me/s_a_i_k_r_i_s_h_n_a) if I go offline
 ==========================
 `Maintained by` @YorktownEagleUnion
 

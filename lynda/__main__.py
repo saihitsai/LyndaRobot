@@ -51,7 +51,7 @@ will redirect you to pm, with all that chat's settings.
 {}
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with `/` or `!`.\n")
 
-LYNDA_IMG = "https://telegra.ph/file/aa808a7a26a011cdf613e.jpg"
+LYNDA_IMG = "https://telegra.ph/file/6bbf463a6836b7e5ebae8.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
 Lynda is hosted on one of Digital Ocean Servers. \

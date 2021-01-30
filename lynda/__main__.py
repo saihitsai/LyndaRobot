@@ -21,21 +21,17 @@ Hi {}, my name is {}!
 // I am an Anime themed group management bot with a lot of Special Features.
 You can find the list of available commands with /help.
 ==========================
--> [Lynda's Repo](https://t.me/s_a_i_k_r_i_s_h_n_a)
--> Report [Lynda Support](https://t.me/s_a_i_k_r_i_s_h_n_a) if I go offline
+-> [Repo](https://t.me/s_a_i_k_r_i_s_h_n_a)
+-> Report [Support](https://t.me/s_a_i_k_r_i_s_h_n_a) if I go offline
 ==========================
-`Maintained by` @YorktownEagleUnion
-
 """
 
 HELP_STRINGS = """
 Hey there! My name is *{}*.
-I'm a part of Eagle Union.
+I'm a part of sHaDoW Union.
 Have a look at the following for an idea of some of \
 the things I can help you with.
-I'm managed by [Poki](https://t.me/pokurt)
-Chatbot module from [TheRealPhoenixBot](https://github.com/rsktg/TheRealPhoenixBot.git)
-Disaster module from [SaitamaRobot](https://github.com/AnimeKaizoku/SaitamaRobot)
+I'm managed by [sHaDoW](https://t.me/s_a_i_k_r_i_s_h_n_a)
 *Main* commands available:
 -> `/start`
 start the bot
@@ -146,10 +142,10 @@ def start(update: Update, context: CallbackContext):
         else:
             first_name = update.effective_user.first_name
             buttons = InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="👥 Add Lynda to your group", url="https://t.me/LyndaRobot?startgroup=new")],
-                [InlineKeyboardButton(text="🙋 Support Group", url="https://t.me/LyndaEagleSupport"),
+                [[InlineKeyboardButton(text="👥 Add sHaDoW to your group", url="https://t.me/ShaD0w_2bot?startgroup=new")],
+                [InlineKeyboardButton(text="🙋 Support Group", url="https://t.me/s_a_i_k_r_i_s_h_n_a"),
                 InlineKeyboardButton(text="🚫 Global Logs", url="https://t.me/LyndaGLogs")],
-                [InlineKeyboardButton(text="❔ Help", url="https://t.me/LyndaRobot?start=help"),
+                [InlineKeyboardButton(text="❔ Help", url="https://t.me/ShaD0w_2bot?start=help"),
                 InlineKeyboardButton(text="🔔 Update Channel", url="https://t.me/LyndaUpdateLogs")]])
             update.effective_message.reply_photo(
                 LYNDA_IMG,
